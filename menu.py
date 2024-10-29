@@ -145,15 +145,15 @@ while place_order:
                     # Add the item name, price, and quantity to the order list
                     add_to_order(item_name, item_price, quantity)
                     print(f"Added {quantity} of {item_name} to your order.")
-                else:
+                
 
                     # Tell the customer that their input isn't valid
                 print("That was not a valid item selection.")
-                else:
+                
 
                 # Tell the customer they didn't select a menu option
                 print(f"{menu_category} was not a menu option.")
-                else:
+                
 
             # Tell the customer they didn't select a menu option
             print(f"{menu_category} was not a menu option.")
@@ -169,12 +169,10 @@ while place_order:
         if keep_ordering == 'y':
                 # Keep ordering
                 break
-                elif keep_ordering == 'n':
+                
                 # Exit the keep ordering question loop
-                place_order = False
-                print("Thank you for your order!")
-                break
-        else:
+              
+               
                 # Complete the order
 
                 # Since the customer decided to stop ordering, thank them for
