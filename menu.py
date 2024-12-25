@@ -54,7 +54,7 @@ menu = {
 # menu item name, item price, and quantity ordered
 
 order_list = []
-
+# setting up my local git
 # Launch the store and present a greeting to the customer
 print("Welcome to the variety food truck.")
 
